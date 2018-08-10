@@ -9,8 +9,8 @@ public class RMIApplication {
 
 	public static void main(String[] args) {
 		String name = (args.length < 1) ? "Willi" : args[0];
-		System.out.println("name: " + name);
 		
+// The following might possibly be necessary in a real distributed Environment:
 //		if (System.getSecurityManager() == null) {
 //            System.setSecurityManager(new SecurityManager());
 //        }
