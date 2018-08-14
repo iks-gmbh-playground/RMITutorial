@@ -1,1 +1,1 @@
-java -classpath .\bin -Djava.rmi.server.useCodebaseOnly=false -Djava.rmi.server.codebase=file:C:\Learning\Dojos\DojoWorkspace\RMITutorial\bin\ com.iks.rmiTutorial.server.GreetServer
+java -cp .\bin -Djava.rmi.server.useCodebaseOnly=false -Djava.rmi.server.codebase=https://www.dropbox.com/home/Public/classes/ com.iks.rmiTutorial.server.GreetServer
